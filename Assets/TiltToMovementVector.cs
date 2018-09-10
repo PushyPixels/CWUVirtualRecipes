@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PolaroidStyleCamera : MonoBehaviour
-{
-    public RenderTexture rt;
-    public Renderer picturePrefab;
+public class TiltToMovementVector : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -16,9 +13,4 @@ public class PolaroidStyleCamera : MonoBehaviour
 	void Update () {
 		
 	}
-
-    public void TakePicture()
-    {
-        Debug.Log("Taking picture");
-    }
 }
