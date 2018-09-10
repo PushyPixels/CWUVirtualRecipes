@@ -74,7 +74,7 @@ InputManager:
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: left cmd
+    positiveButton: left shift
     altNegativeButton: 
     altPositiveButton: mouse 2
     gravity: 1000
@@ -294,7 +294,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Oculus_GearVR_LThumbstickX
+    m_Name: LeftTrackpadHorizontal
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -302,7 +302,7 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
-    dead: 0.001
+    dead: 0.19
     sensitivity: 1
     snap: 0
     invert: 0
@@ -310,7 +310,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Oculus_GearVR_LThumbstickY
+    m_Name: LeftTrackpadVertical
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -318,7 +318,7 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
-    dead: 0.001
+    dead: 0.19
     sensitivity: 1
     snap: 0
     invert: 1
@@ -326,7 +326,7 @@ InputManager:
     axis: 1
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Oculus_GearVR_RThumbstickX
+    m_Name: RightTrackpadHorizontal
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -334,31 +334,15 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
-    dead: 0.001
+    dead: 0.19
     sensitivity: 1
     snap: 0
     invert: 0
-    type: 2
-    axis: 2
-    joyNum: 0
-  - serializedVersion: 3
-    m_Name: Oculus_GearVR_RThumbstickY
-    descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: 
-    altNegativeButton: 
-    altPositiveButton: 
-    gravity: 0
-    dead: 0.001
-    sensitivity: 1
-    snap: 0
-    invert: 1
     type: 2
     axis: 3
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Oculus_GearVR_DpadX
+    m_Name: RightTrackpadVertical
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -366,31 +350,15 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
-    dead: 0.001
-    sensitivity: 1
-    snap: 0
-    invert: 0
-    type: 2
-    axis: 4
-    joyNum: 0
-  - serializedVersion: 3
-    m_Name: Oculus_GearVR_DpadY
-    descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: 
-    altNegativeButton: 
-    altPositiveButton: 
-    gravity: 0
-    dead: 0.001
+    dead: 0.19
     sensitivity: 1
     snap: 0
     invert: 1
     type: 2
-    axis: 5
+    axis: 4
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Oculus_GearVR_LIndexTrigger
+    m_Name: LeftTrigger
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -398,15 +366,15 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
-    dead: 0.001
+    dead: 0.19
     sensitivity: 1
     snap: 0
     invert: 0
     type: 2
-    axis: 12
+    axis: 8
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Oculus_GearVR_RIndexTrigger
+    m_Name: RightTrigger
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -414,7 +382,39 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
-    dead: 0.001
+    dead: 0.19
+    sensitivity: 1
+    snap: 0
+    invert: 0
+    type: 2
+    axis: 9
+    joyNum: 0
+  - serializedVersion: 3
+    m_Name: LeftGrip
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 0
+    dead: 0.19
+    sensitivity: 1
+    snap: 0
+    invert: 0
+    type: 2
+    axis: 10
+    joyNum: 0
+  - serializedVersion: 3
+    m_Name: RightGrip
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 0
+    dead: 0.19
     sensitivity: 1
     snap: 0
     invert: 0
