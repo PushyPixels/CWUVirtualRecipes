@@ -21,7 +21,7 @@ public class ColorByTilt : MonoBehaviour
 
     // Update is called once per frame
     void Update ()
-    {
+        {
         if(mode == Mode.xPositive || mode == Mode.xNegative)
         {
             float value = tilt.xTilt;
