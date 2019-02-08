@@ -158,6 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1625423769}
   speed: {x: 1, y: 1, z: 1}
+  randomize: 0
 --- !u!1001 &10268985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -821,6 +822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1664905646}
   speed: {x: 1, y: 1, z: 0.3333333}
+  randomize: 0
 --- !u!1001 &72872390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1448,6 +1450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 996680958}
   speed: {x: 0.3333333, y: 0.6666667, z: 0.666666}
+  randomize: 0
 --- !u!1001 &91028731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3434,6 +3437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1828998748}
   speed: {x: 0.33333334, y: 0.3333333, z: 0.666666}
+  randomize: 0
 --- !u!1 &217913075
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,6 +3766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1420546570}
   speed: {x: 0.3333333, y: 1, z: 1}
+  randomize: 0
 --- !u!1 &226820335
 GameObject:
   m_ObjectHideFlags: 0
@@ -4309,7 +4314,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -5155,7 +5160,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -5382,6 +5387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 974523342}
   speed: {x: 0.6666667, y: 0.3333333, z: 0.666666}
+  randomize: 0
 --- !u!1 &297500993
 GameObject:
   m_ObjectHideFlags: 0
@@ -7937,6 +7943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 765561471}
   speed: {x: 0.6666667, y: 0.6666667, z: 0.3333333}
+  randomize: 0
 --- !u!1 &446662010
 GameObject:
   m_ObjectHideFlags: 0
@@ -8259,7 +8266,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -8465,7 +8472,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -8638,7 +8645,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -9596,6 +9603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 867050576}
   speed: {x: 0.6666667, y: 1, z: 0.666666}
+  randomize: 0
 --- !u!1 &525826078
 GameObject:
   m_ObjectHideFlags: 0
@@ -12454,7 +12462,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -12812,6 +12820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 453966562}
   speed: {x: 0.6666667, y: 0.6666667, z: 1}
+  randomize: 0
 --- !u!1001 &714643495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14321,7 +14330,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -15375,6 +15384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1276637366}
   speed: {x: 1, y: 0.3333333, z: 1}
+  randomize: 0
 --- !u!1 &820815545
 GameObject:
   m_ObjectHideFlags: 0
@@ -16117,7 +16127,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -16265,6 +16275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1712049975}
   speed: {x: 0.6666667, y: 0.3333333, z: 0.3333333}
+  randomize: 0
 --- !u!1 &865958963
 GameObject:
   m_ObjectHideFlags: 0
@@ -16311,6 +16322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 691382575}
   speed: {x: 1, y: 0.6666667, z: 1}
+  randomize: 0
 --- !u!1 &867050575
 GameObject:
   m_ObjectHideFlags: 0
@@ -16382,7 +16394,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -16885,7 +16897,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -17465,6 +17477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 858684657}
   speed: {x: 0.3333333, y: 1, z: 0.3333333}
+  randomize: 0
 --- !u!1001 &956569466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17930,7 +17943,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -18517,7 +18530,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -18993,6 +19006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1281815736}
   speed: {x: 0.6666667, y: 0.6666667, z: 0.666666}
+  randomize: 0
 --- !u!1 &1006846867
 GameObject:
   m_ObjectHideFlags: 0
@@ -20138,7 +20152,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -20887,7 +20901,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -22919,7 +22933,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -23332,7 +23346,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -23505,7 +23519,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -24394,6 +24408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1256624613}
   speed: {x: 1, y: 0.3333333, z: 0.666666}
+  randomize: 0
 --- !u!1 &1313408427
 GameObject:
   m_ObjectHideFlags: 0
@@ -25566,7 +25581,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -25854,7 +25869,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -26118,6 +26133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 252547732}
   speed: {x: 0.3333333, y: 0.6666667, z: 1}
+  randomize: 0
 --- !u!1001 &1441393260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26333,6 +26349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1710793238}
   speed: {x: 0.6666667, y: 1, z: 1}
+  randomize: 0
 --- !u!1001 &1463311583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26442,6 +26459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 271470895}
   speed: {x: 0.6666667, y: 0.3333333, z: 1}
+  randomize: 0
 --- !u!1001 &1475394328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27327,6 +27345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 478205241}
   speed: {x: 1, y: 1, z: 0.666666}
+  randomize: 0
 --- !u!1 &1512005210
 GameObject:
   m_ObjectHideFlags: 0
@@ -29551,7 +29570,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -29724,7 +29743,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -29872,6 +29891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1085870219}
   speed: {x: 0.3333333, y: 1, z: 0.666666}
+  randomize: 0
 --- !u!1 &1632944217
 GameObject:
   m_ObjectHideFlags: 0
@@ -29918,6 +29938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1625189334}
   speed: {x: 0.3333333, y: 0.6666667, z: 0.3333333}
+  randomize: 0
 --- !u!1001 &1637566380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30078,6 +30099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1136576709}
   speed: {x: 0.6666667, y: 1, z: 0.3333333}
+  randomize: 0
 --- !u!1 &1646968220
 GameObject:
   m_ObjectHideFlags: 0
@@ -30498,7 +30520,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -31704,7 +31726,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -31877,7 +31899,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -32433,6 +32455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 924870346}
   speed: {x: 0.33333334, y: 0.3333333, z: 1}
+  randomize: 0
 --- !u!1 &1721392603
 GameObject:
   m_ObjectHideFlags: 0
@@ -32974,7 +32997,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -34045,7 +34068,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -34930,7 +34953,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.005
@@ -35502,6 +35525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1866248145}
   speed: {x: 1, y: 0.6666667, z: 0.3333333}
+  randomize: 0
 --- !u!1 &1895633731
 GameObject:
   m_ObjectHideFlags: 0
@@ -36635,6 +36659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 476058433}
   speed: {x: 1, y: 0.6666667, z: 0.666666}
+  randomize: 0
 --- !u!1001 &1948206213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38055,6 +38080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1750913822}
   speed: {x: 1, y: 0.3333333, z: 0.3333333}
+  randomize: 0
 --- !u!1 &2035732908
 GameObject:
   m_ObjectHideFlags: 0
@@ -39133,6 +39159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1419145850}
   speed: {x: 0.33333334, y: 0.3333333, z: 0.3333333}
+  randomize: 0
 --- !u!4 &2098036268
 Transform:
   m_ObjectHideFlags: 0

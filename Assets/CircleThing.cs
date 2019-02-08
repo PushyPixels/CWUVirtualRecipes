@@ -6,13 +6,17 @@ public class CircleThing : MonoBehaviour
 {
     public Transform ball;
     public Vector3 speed = Vector3.one;
+    public bool randomize = false;
 
     private float t;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(randomize)
+        {
+            speed = Random.insideUnitSphere;
+        }
     }
 
     // Update is called once per frame
