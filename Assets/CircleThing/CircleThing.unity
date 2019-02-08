@@ -11054,6 +11054,7 @@ GameObject:
   - component: {fileID: 628910570}
   - component: {fileID: 628910569}
   - component: {fileID: 628910572}
+  - component: {fileID: 628910573}
   m_Layer: 0
   m_Name: CircleThingBox
   m_TagString: Untagged
@@ -11164,6 +11165,26 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &628910573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628910568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 1
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
+  destroyImmediatelyOnThrow: 1
+  breakForce: 1500
 --- !u!1 &631840821
 GameObject:
   m_ObjectHideFlags: 0
@@ -39158,7 +39179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1419145850}
-  speed: {x: 0.33333334, y: 0.3333333, z: 0.3333333}
+  speed: {x: 0.33333334, y: 0.3333333, z: 0.33333334}
   randomize: 0
 --- !u!4 &2098036268
 Transform:
