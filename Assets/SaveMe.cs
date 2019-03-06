@@ -14,4 +14,9 @@ public class SaveMe : MonoBehaviour
     {
         saveables.Add(this);
     }
+
+    void OnDestroy()
+    {
+        saveables.Remove(this);
+    }
 }
