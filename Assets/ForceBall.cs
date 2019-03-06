@@ -22,7 +22,7 @@ public class ForceBall : MonoBehaviour
         foreach(Collider col in colliders)
         {
             Rigidbody body = col.GetComponent<Rigidbody>();
-            if(body)
+            if(body && body != GetComponent<Rigidbody>())
             {
                 body.AddExplosionForce(force,transform.position,transform.localScale.x/2.0f,0.0f,forceMode);
                 if(applyDrag)
