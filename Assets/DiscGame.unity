@@ -23743,9 +23743,13 @@ MonoBehaviour:
   levelDefinitionFileName: Level001
   objectDefinitions:
   - type: 0
-    prefab: {fileID: 17975208856795360, guid: 5695e4c090099ce4688f8d89194ad0b0, type: 3}
+    prefab: {fileID: 5713974153697572801, guid: 5693358bd4b728949ab80640fbd6d2d1,
+      type: 3}
   - type: 1
     prefab: {fileID: 205159540177410735, guid: d6888b5bbff8ea44a9b27b0b0fa2cee5, type: 3}
+  - type: 2
+    prefab: {fileID: 7804215619910819033, guid: e6b398caf3ed529479827b6dd179f097,
+      type: 3}
 --- !u!4 &1280673427
 Transform:
   m_ObjectHideFlags: 0

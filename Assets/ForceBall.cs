@@ -6,6 +6,8 @@ public class ForceBall : MonoBehaviour
 {
     public float force = 10.0f;
     public ForceMode forceMode = ForceMode.Acceleration;
+    public bool applyDrag = false;
+    public float dragAmount = 1.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,10 @@ public class ForceBall : MonoBehaviour
             if(body)
             {
                 body.AddExplosionForce(force,transform.position,transform.localScale.x/2.0f,0.0f,forceMode);
+                if(applyDrag)
+                {
+                    body.drag += dragAmount;
+                }
             }
         }
     }
