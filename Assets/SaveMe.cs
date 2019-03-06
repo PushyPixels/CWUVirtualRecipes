@@ -1,15 +1,17 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SaveMe : MonoBehaviour
 {
-    public static List<SaveMe> savables = new List<SaveMe>();
+    public static List<SaveMe> saveables = new List<SaveMe>();
     public LevelDefinition.ObjectType type;
 
     // Start is called before the first frame update
     void Start()
     {
-        savables.Add(this);
+        saveables.Add(this);
     }
 }

@@ -54,7 +54,8 @@ public class LevelManager : MonoBehaviour
 
     void OnApplicationQuit()
     {
-        foreach(SaveMe saveable in SaveMe.savables)
+        levelDefinition.objectData.Clear();
+        foreach(SaveMe saveable in SaveMe.saveables)
         {
             LevelDefinition.ObjectData objectData = new LevelDefinition.ObjectData();
             objectData.position = saveable.transform.position;
