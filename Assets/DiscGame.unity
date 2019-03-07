@@ -24249,7 +24249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb3d2c2e54a77c488387903a35486ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelDefinitionFileName: Level001
+  levelDefinitionFileName: NewLevel
   objectDefinitions:
   - type: 0
     prefab: {fileID: 5713974153697572801, guid: 5693358bd4b728949ab80640fbd6d2d1,
