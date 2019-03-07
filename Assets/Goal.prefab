@@ -102,5 +102,35 @@ PrefabInstance:
       propertyPath: type
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3171052350529431453, guid: d6888b5bbff8ea44a9b27b0b0fa2cee5,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171052350529431453, guid: d6888b5bbff8ea44a9b27b0b0fa2cee5,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171052350529431453, guid: d6888b5bbff8ea44a9b27b0b0fa2cee5,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171052350529431453, guid: d6888b5bbff8ea44a9b27b0b0fa2cee5,
+        type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171052350529431453, guid: d6888b5bbff8ea44a9b27b0b0fa2cee5,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877654858502436700, guid: d6888b5bbff8ea44a9b27b0b0fa2cee5,
+        type: 3}
+      propertyPath: m_LengthScale
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6888b5bbff8ea44a9b27b0b0fa2cee5, type: 3}
