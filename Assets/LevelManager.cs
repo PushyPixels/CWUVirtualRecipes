@@ -59,11 +59,13 @@ public class LevelManager : MonoBehaviour
         {
             LevelDefinition.ObjectData objectData = new LevelDefinition.ObjectData();
             objectData.position = saveable.transform.position;
+            objectData.rotation = saveable.transform.rotation;
             objectData.scale = saveable.transform.localScale;
             objectData.type = saveable.type;
 
             if(saveable.type == LevelDefinition.ObjectType.Goal)
             {
+                objectData.magnitude = saveable.GetComponent<ForceBall>().force;
             }
             else if(saveable.type == LevelDefinition.ObjectType.PullNode)
             {
