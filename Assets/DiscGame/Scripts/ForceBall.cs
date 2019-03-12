@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ForceBall : MonoBehaviour
 {
-    public float force = 10.0f;
+    public Editable forceEditable;
     public ForceMode forceMode = ForceMode.Acceleration;
     public bool applyDrag = false;
     public float dragAmount = 1.0f;
@@ -24,7 +24,7 @@ public class ForceBall : MonoBehaviour
             Rigidbody body = col.GetComponent<Rigidbody>();
             if(body && body != GetComponent<Rigidbody>())
             {
-                body.AddExplosionForce(force,transform.position,transform.localScale.x/2.0f,0.0f,forceMode);
+                body.AddExplosionForce(forceEditable.value,transform.position,transform.localScale.x/2.0f,0.0f,forceMode);
                 if(applyDrag)
                 {
                     body.drag += dragAmount;

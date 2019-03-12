@@ -39,7 +39,7 @@ public class LevelManager : MonoBehaviour
                     obj.transform.localScale = data.scale;
                     if(data.type == LevelDefinition.ObjectType.PullNode || data.type == LevelDefinition.ObjectType.PushNode)
                     {
-                        obj.GetComponent<ForceBall>().force = data.magnitude;
+                        obj.GetComponent<ForceBall>().forceEditable.value = data.magnitude;
                     }
                 }
             }
@@ -65,15 +65,15 @@ public class LevelManager : MonoBehaviour
 
             if(saveable.type == LevelDefinition.ObjectType.Goal)
             {
-                objectData.magnitude = saveable.GetComponent<ForceBall>().force;
+                objectData.magnitude = saveable.GetComponent<ForceBall>().forceEditable.value;
             }
             else if(saveable.type == LevelDefinition.ObjectType.PullNode)
             {
-                objectData.magnitude = saveable.GetComponent<ForceBall>().force;
+                objectData.magnitude = saveable.GetComponent<ForceBall>().forceEditable.value;
             }
             else if(saveable.type == LevelDefinition.ObjectType.PushNode)
             {
-                objectData.magnitude = saveable.GetComponent<ForceBall>().force;
+                objectData.magnitude = saveable.GetComponent<ForceBall>().forceEditable.value;
             }
 
             levelDefinition.objectData.Add(objectData);
