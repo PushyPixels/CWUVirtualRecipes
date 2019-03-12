@@ -30,6 +30,12 @@ public class VertexHandle : MonoBehaviour
                 vertexBuffer[vertexIndex] = transform.localPosition;
             }
             meshFilter.mesh.SetVertices(vertexBuffer);
+            meshFilter.mesh.RecalculateNormals();
+            MeshCollider collider = meshFilter.GetComponent<MeshCollider>();
+            if(collider)
+            {
+                collider.sharedMesh = meshFilter.sharedMesh;
+            }
             lastLocalPosition = transform.localPosition;
         }
     }

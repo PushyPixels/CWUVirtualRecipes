@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshFilter: {fileID: 0}
-  vertexIndex: 0
+  vertexIndices: 
 --- !u!114 &5355577641652044153
 MonoBehaviour:
   m_ObjectHideFlags: 0
