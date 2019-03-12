@@ -619,7 +619,7 @@ Transform:
   m_GameObject: {fileID: 927370679977095678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.03, y: 0.04, z: 0.02}
   m_Children: []
   m_Father: {fileID: 8204725440359693223}
   m_RootOrder: 0
@@ -699,16 +699,16 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   excludeColliderCheckOn: []
-  equalityFidelity: 0.001
+  equalityFidelity: 0.0001
   maximumLength: 0.1
-  minMaxThreshold: 0.01
+  minMaxThreshold: 0.0001
   positionTarget: 0
   restingPosition: 0
   forceRestingPositionThreshold: 0
   stepValueRange:
     minimum: -20
     maximum: 20
-  stepSize: 2
+  stepSize: 1
   useStepAsValue: 1
   snapToStep: 1
   snapForce: 10
@@ -1136,7 +1136,7 @@ Transform:
   m_GameObject: {fileID: 4012268980595299063}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.049999997, y: 0.060000002, z: -0.05}
-  m_LocalScale: {x: 0.03, y: 0.04, z: 0.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5346817609371651691}
   m_Father: {fileID: 5973219410711863840}

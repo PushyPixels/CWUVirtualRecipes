@@ -111,11 +111,19 @@ namespace VRTK.Controllables.ArtificialBased
         /// <summary>
         /// The GetStepValue method returns the current position of the slider based on the step value range.
         /// </summary>
-        /// <param name="currentValue">The current position value of the slider to get the Step Value for.</param>
-        /// <returns>The current Step Value based on the slider position.</returns>
-        public virtual float GetStepValue(float currentValue)
+        public virtual float GetStepValue()
         {
-            return Mathf.Round((stepValueRange.minimum + Mathf.Clamp01(currentValue / maximumLength) * (stepValueRange.maximum - stepValueRange.minimum)) / stepSize) * stepSize;
+            return Mathf.Round((stepValueRange.minimum + Mathf.Clamp01(GetValue() / maximumLength) * (stepValueRange.maximum - stepValueRange.minimum)) / stepSize) * stepSize;
+        }
+
+        /// <summary>
+        /// The SetStepValue method sets the current position of the slider based on the step value range.
+        /// </summary>
+        public virtual void SetStepValue(float newValue)
+        {
+            SetValue(Mathf.Clamp01((newValue - stepValueRange.minimum) / (stepValueRange.maximum - stepValueRange.minimum)) * maximumLength);
+            // Need to make all this shit go into that thing above here, but reversed
+        //    return Mathf.Round((stepValueRange.minimum + Mathf.Clamp01(GetValue() / maximumLength) * (stepValueRange.maximum - stepValueRange.minimum)) / stepSize) * stepSize;
         }
 
         /// <summary>
@@ -267,7 +275,7 @@ namespace VRTK.Controllables.ArtificialBased
         protected override ControllableEventArgs EventPayload()
         {
             ControllableEventArgs e = base.EventPayload();
-            e.value = (useStepAsValue ? GetStepValue(GetValue()) : GetValue());
+            e.value = (useStepAsValue ? GetStepValue() : GetValue());
             return e;
         }
 
@@ -277,7 +285,7 @@ namespace VRTK.Controllables.ArtificialBased
             SetPositionTarget(positionTarget, 0f);
             if (snapToStep)
             {
-                SetPositionTargetWithStepValue(GetStepValue(GetValue()), snapForce);
+                SetPositionTargetWithStepValue(GetStepValue(), snapForce);
             }
             EmitEvents();
         }
@@ -387,7 +395,7 @@ namespace VRTK.Controllables.ArtificialBased
             SetGrabMechanicParameters();
             if (snapToStep)
             {
-                SetPositionTargetWithStepValue(GetStepValue(GetValue()), snapForce);
+                SetPositionTargetWithStepValue(GetStepValue(), snapForce);
             }
 
             if (ForceRestingPosition())

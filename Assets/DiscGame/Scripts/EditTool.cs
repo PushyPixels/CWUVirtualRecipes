@@ -56,7 +56,7 @@ public class EditTool : MonoBehaviour
                     }
                     currentEditTarget = editable;
                     currentEditTarget.ActivateEditIcon();
-                    slider.SetValue(currentEditTarget.value);
+                    slider.SetStepValue(currentEditTarget.value);
                     valueText.text = currentEditTarget.value.ToString();
                 }
             }
@@ -65,7 +65,7 @@ public class EditTool : MonoBehaviour
 
         if(currentEditTarget)
         {
-            currentEditTarget.value = slider.GetValue();
+            currentEditTarget.value = slider.GetStepValue();
             valueText.text = currentEditTarget.value.ToString();
         }
     }
